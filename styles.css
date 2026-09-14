@@ -32,6 +32,8 @@ body {
 .page-image {
   display: block;
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 90vw;
+  max-height: 80vh;
+  width: auto;
   height: auto;
 }
