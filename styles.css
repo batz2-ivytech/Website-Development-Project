@@ -2,3 +2,13 @@ h1 {
   font-family: 'Yeseva One', serif;
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
