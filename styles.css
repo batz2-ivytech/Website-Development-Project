@@ -28,3 +28,10 @@ body {
   background-color: #1a1a1a;
   color: #f0ebe3;
 }
+
+.page-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  height: auto;
+}
