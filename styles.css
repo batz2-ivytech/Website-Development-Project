@@ -6,9 +6,16 @@ h1 {
 nav {
   display: flex;;
   justify-content: space-evenly;
+  font-family: 'Yeseva One', serif;
 }
 
 nav a {
   text-decoration: none;
   color: inherit;
+  
+}
+
+nav a:hover {
+  color: gray;
+  text-decoration: underline;
 }
