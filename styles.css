@@ -1,13 +1,11 @@
 h1 {
   font-family: 'Lobster Two', cursive;
-  text-align: center;
 }
 
 nav {
   display: flex;;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 20px;
+  flex-direction: row;
+  gap: 1.5em;
   font-family: 'Yeseva One', serif;
 }
 
@@ -15,8 +13,6 @@ nav a {
   text-decoration: none;
   color: inherit;
   padding: 0.4em 0.6em;
-  width: 12em;
-  text-align: center;
 }
 
 nav a:hover {
@@ -36,4 +32,10 @@ body {
   max-height: 80vh;
   width: auto;
   height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
