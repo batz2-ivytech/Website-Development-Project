@@ -6,7 +6,7 @@ h1 {
 nav {
   display: flex;
   flex-direction: row;
-  gap: 3.5em;
+  gap: 40px;
   font-family: 'Yeseva One', serif;
   font-size: 1.1rem;
   margin-left: auto;
@@ -16,7 +16,7 @@ nav {
 nav a {
   text-decoration: none;
   color: inherit;
-  padding: 0.4em 0.6em;
+  padding: 6px 10px;
 }
 
 nav a:hover {
