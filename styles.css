@@ -10,7 +10,7 @@ nav {
   font-family: 'Yeseva One', serif;
   font-size: 1.35rem;
   margin-left: auto;
-  margin-right: 25%;
+  margin-right: 15%;
 }
 
 nav a {
@@ -42,5 +42,5 @@ header {
   display: flex;
   align-items: center;
   background-color: black;
-  padding: 1.5rem 2rem;
+  padding: 1.0rem 0.5rem;
 }
