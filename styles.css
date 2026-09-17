@@ -41,4 +41,6 @@ body {
 header {
   display: flex;
   align-items: center;
+  background-color: black;
+  padding: 1.5rem 2rem;
 }
