@@ -141,3 +141,17 @@ header h1 a {
   gap: 12px;
   flex-wrap: wrap;
 }
+
+.form-message {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.form-message-success {
+  color: #97C459;
+}
+
+.form-message-error {
+  color: #F0997B;
+}
