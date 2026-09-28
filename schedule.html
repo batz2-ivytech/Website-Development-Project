@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Atz Family Hub</title>
+  <title>School Schedule | Atz Family Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The Atz family's weekly school and activity schedule.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
@@ -20,6 +19,25 @@
       <a href="gallery.html">Photo Gallery</a>
     </nav>
   </header>
-  <img src="images/construction.jpg" alt="Page under construction" class="page-image">
+
+  <main>
+    <h2 id="calendar-title">October 2026</h2>
+    <table id="calendar-table" class="calendar">
+      <thead>
+        <tr>
+          <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+        <!-- rows built by JS -->
+      </tbody>
+    </table>
+
+    <div id="day-detail" class="day-detail">
+      <p>Select a day to see what's happening.</p>
+    </div>
+  </main>
+
+  <script src="schedule.js" defer></script>
 </body>
 </html>

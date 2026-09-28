@@ -1,0 +1,8 @@
+{
+  "events": [
+    { "date": "2026-10-03", "title": "ISSMA Prelims", "time": "5:00 PM", "person": ["Khloe"] },
+    { "date": "2026-10-16", "title": "FB Game", "time": "5:00 PM", "person": ["Khloe"] },
+    { "date": "2026-10-22", "title": "Fall Break", "time": "All Day", "person": ["Khloe", "Ryder", "Katelynn"] },
+    { "date": "2026-10-23", "title": "Fall Break", "time": "All Day", "person": ["Khloe", "Ryder", "Katelynn"] }
+  ]
+}
