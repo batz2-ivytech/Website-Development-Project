@@ -29,7 +29,7 @@ body {
   margin: 0;
   background-color: #1a1a1a;
   color: #f0ebe3;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.5;
 
 }
@@ -48,4 +48,28 @@ header {
   align-items: center;
   background-color: black;
   padding: 0.25rem 0.5rem;
+}
+
+header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  nav a {
+    padding: 12px 10px;
+    width: 100%;
+  }
 }
