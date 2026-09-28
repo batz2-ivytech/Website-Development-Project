@@ -21,5 +21,11 @@ fetch('data/recipes.json')
 
       list.appendChild(card);
     });
+
+    for (let i = 0; i < 4; i++) {
+      const spacer = document.createElement('li');
+      spacer.className = 'recipe-card-empty';
+      list.appendChild(spacer);
+    }
   })
   .catch(error => console.error('Could not load recipes:', error));
