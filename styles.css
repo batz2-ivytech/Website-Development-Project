@@ -4,6 +4,11 @@ h1 {
   margin: 0;
 }
 
+main h2 {
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+}
+
 nav {
   display: flex;
   flex-direction: row;
