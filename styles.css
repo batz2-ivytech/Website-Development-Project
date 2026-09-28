@@ -133,3 +133,11 @@ header h1 a {
 .recipe-card-empty {
   height: 100%;
 }
+
+#add-recipe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
