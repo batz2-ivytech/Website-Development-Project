@@ -69,3 +69,11 @@ fetch('data/schedule.json')
     });
   })
   .catch(error => console.error('Could not load today\'s events:', error));
+
+fetch('data/jokes.json')
+  .then(response => response.json())
+  .then(data => {
+    const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+    const joke = data.jokes[dayOfYear % data.jokes.length];
+    document.getElementById('joke-of-the-day').textContent = joke;
+  });
