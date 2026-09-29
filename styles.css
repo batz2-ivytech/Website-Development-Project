@@ -286,12 +286,12 @@ header h1 a {
 }
 
 #birthday-countdown {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   color: #d97757;
 }
 
 #today-events {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   list-style: none;
   padding: 0;
 }
@@ -316,7 +316,7 @@ header h1 a {
 }
 
 #joke-of-the-day {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   font-style: italic;
   color: #f0ebe3;
 }
