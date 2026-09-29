@@ -292,7 +292,7 @@ header h1 a {
 }
 
 #today-events {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   list-style: none;
   padding: 0;
 }
@@ -317,7 +317,7 @@ header h1 a {
 }
 
 #joke-of-the-day {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-style: italic;
-  color: #f0ebe3;
+  color: #EF9F27;
 }
