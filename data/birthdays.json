@@ -1,0 +1,10 @@
+{
+  "birthdays": [
+    { "name": "Mom", "month": 12, "day": 9 },
+    { "name": "Dad", "month": 9, "day": 21 },
+    { "name": "Kylie", "month": 12, "day": 4 },
+    { "name": "Khloe", "month": 1, "day": 6 },
+    { "name": "Ryder", "month": 9, "day": 2 },
+    { "name": "Katelynn", "month": 9, "day": 2 }
+  ]
+}

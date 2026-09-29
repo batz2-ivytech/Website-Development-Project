@@ -277,3 +277,29 @@ header h1 a {
     column-count: 1;
   }
 }
+
+.home-widget {
+  max-width: 700px;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+#birthday-countdown {
+  font-size: 1.3rem;
+  color: #d97757;
+}
+
+#today-events {
+  list-style: none;
+  padding: 0;
+}
+
+#today-events li {
+  padding: 4px 0;
+}
+
+.no-events {
+  color: #999;
+  font-style: italic;
+}
