@@ -248,3 +248,32 @@ header h1 a {
   margin: 0 auto 2rem;
   border-radius: 6px;
 }
+
+.masonry {
+  column-count: 3;
+  column-gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.masonry img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  break-inside: avoid;
+}
+
+@media (max-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .masonry {
+    column-count: 1;
+  }
+}
