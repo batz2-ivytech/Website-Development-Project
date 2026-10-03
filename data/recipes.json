@@ -1,8 +1,8 @@
 {
   "recipes": [
-    { "name": "Grandma's chili", "link": "https://www.allrecipes.com/recipe/chili" },
-    { "name": "Sunday pancakes", "link": "" },
-    { "name": "Slow cooker roast", "link": "https://www.cookingclassy.com/slow-cooker-pot-roast/" },
-    { "name": "Weeknight tacos", "link": "" }
+    { "name": "Grandma's chili", "link": "https://www.allrecipes.com/recipe/16360/homemade-chili/" },
+    { "name": "Sunday pancakes", "link": "https://www.allrecipes.com/recipe/20177/banana-pancakes-i/" },
+    { "name": "Slow cooker roast", "link": "https://www.allrecipes.com/recipe/228823/slow-cooker-pot-roast/" },
+    { "name": "Weeknight tacos", "link": "https://www.allrecipes.com/recipe/70033/taco-seasoning-i/" }
   ]
 }
